@@ -630,14 +630,14 @@ function AlonFeatured() {
             <div>
               <div style={{ ...tx.label, fontSize: 9, marginBottom: 6 }}>2024 — Python / Django / JavaScript</div>
               <div style={{ fontFamily: FF, fontSize: 'clamp(22px,3vw,36px)', fontWeight: 900, letterSpacing: '-0.03em', color: tk.fg, lineHeight: 1 }}>ALON</div>
-              <div style={{ ...tx.body, fontSize: 13, marginTop: 4 }}>Social Music Platform</div>
+              <div style={{ ...tx.body, fontSize: 16, marginTop: 4 }}>Social Music Platform</div>
             </div>
           </div>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
             {bullets.map((b, i) => (
               <div key={i} style={{ display: 'flex', gap: 14, alignItems: 'flex-start' }}>
-                <div style={{ width: 4, height: 4, borderRadius: '50%', background: tk.accent, marginTop: 7, flexShrink: 0 }} />
-                <p style={{ ...tx.body, fontSize: 14, margin: 0 }}>{b}</p>
+                <div style={{ width: 5, height: 5, borderRadius: '50%', background: tk.accent, marginTop: 8, flexShrink: 0 }} />
+                <p style={{ ...tx.body, fontSize: 16, margin: 0 }}>{b}</p>
               </div>
             ))}
           </div>
@@ -683,14 +683,14 @@ function JTDFeatured() {
             <div>
               <div style={{ ...tx.label, fontSize: 9, marginBottom: 6 }}>2024 — Branding / Social Media</div>
               <div style={{ fontFamily: FF, fontSize: 'clamp(22px,3vw,36px)', fontWeight: 900, letterSpacing: '-0.03em', color: tk.fg, lineHeight: 1 }}>JTD</div>
-              <div style={{ ...tx.body, fontSize: 13, marginTop: 4 }}>Logistics — Brand Identity</div>
+              <div style={{ ...tx.body, fontSize: 16, marginTop: 4 }}>Logistics — Brand Identity</div>
             </div>
           </div>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
             {bullets.map((b, i) => (
               <div key={i} style={{ display: 'flex', gap: 14, alignItems: 'flex-start' }}>
-                <div style={{ width: 4, height: 4, borderRadius: '50%', background: tk.accent, marginTop: 7, flexShrink: 0 }} />
-                <p style={{ ...tx.body, fontSize: 14, margin: 0 }}>{b}</p>
+                <div style={{ width: 5, height: 5, borderRadius: '50%', background: tk.accent, marginTop: 8, flexShrink: 0 }} />
+                <p style={{ ...tx.body, fontSize: 16, margin: 0 }}>{b}</p>
               </div>
             ))}
           </div>
@@ -738,7 +738,7 @@ function SOLTFeatured() {
             <span style={{ fontFamily: FF, fontSize: 'clamp(32px,5vw,72px)', fontWeight: 900, letterSpacing: '-0.04em', color: tk.fg, lineHeight: 1 }}>ZIYA!</span>
             <span style={{ fontFamily: FF, fontSize: 'clamp(14px,2.2vw,26px)', fontWeight: 700, letterSpacing: '-0.02em', color: tk.fgDim, lineHeight: 1 }}>SOLT Collection</span>
           </div>
-          <div style={{ ...tx.body, fontSize: 13, marginTop: 8 }}>Swagged Out Like This — Debut streetwear drop</div>
+          <div style={{ ...tx.body, fontSize: 16, marginTop: 8 }}>Swagged Out Like This — Debut streetwear drop</div>
         </div>
         <div style={{ display: 'flex', gap: 6 }}>
           {[['#0a0a0a','rgba(255,255,255,0.18)'],['#ffffff','rgba(0,0,0,0.1)'],['#ff2d2d','none']].map(([bg, border], i) => (
@@ -764,7 +764,7 @@ function SOLTFeatured() {
       <div style={{ padding: isMobile ? '24px 20px' : '32px 40px', display: 'grid', gridTemplateColumns: isMobile ? '1fr' : '1fr 1fr', gap: isMobile ? 24 : 40, background: tk.bgAlt }}>
         <div>
           <div style={{ ...tx.label, fontSize: 9, marginBottom: 16 }}>Design Notes</div>
-          <p style={{ ...tx.body, fontSize: 14, margin: 0 }}>SOLT keeps the front restrained — a compact chest logo, "S.O.L.T." in bold italic white with a red star badge cutting through the "O". The back is where the drop makes its statement: a high-contrast halftone figure, hand raised palm-out, fractured red stars layered across the face. Two sides, two moods — quiet confidence up front, full attitude behind.</p>
+          <p style={{ ...tx.body, fontSize: 16, margin: 0 }}>SOLT keeps the front restrained — a compact chest logo, "S.O.L.T." in bold italic white with a red star badge cutting through the "O". The back is where the drop makes its statement: a high-contrast halftone figure, hand raised palm-out, fractured red stars layered across the face. Two sides, two moods — quiet confidence up front, full attitude behind.</p>
         </div>
         <div>
           <div style={{ ...tx.label, fontSize: 9, marginBottom: 16 }}>Tags</div>
@@ -794,7 +794,7 @@ function UCFeatured() {
             <span style={{ fontFamily: FF, fontSize: 'clamp(32px,5vw,72px)', fontWeight: 900, letterSpacing: '-0.04em', color: '#ffffff', lineHeight: 1 }}>ZIYA!</span>
             <span style={{ fontFamily: FF, fontSize: 'clamp(14px,2.2vw,26px)', fontWeight: 700, letterSpacing: '-0.02em', color: 'rgba(255,255,255,0.28)', lineHeight: 1 }}>UC Collection</span>
           </div>
-          <div style={{ ...tx.body, fontSize: 13, marginTop: 8, color: 'rgba(255,255,255,0.55)' }}>Undercover — Royalty without recognition</div>
+          <div style={{ ...tx.body, fontSize: 16, marginTop: 8, color: 'rgba(255,255,255,0.65)' }}>Undercover — Royalty without recognition</div>
         </div>
         <div style={{ display: 'flex', gap: 6 }}>
           {[['#0a0a0a','rgba(255,255,255,0.18)'],['#ffffff','rgba(255,255,255,0.06)'],[GOLD,'none']].map(([bg, border], i) => (
@@ -821,7 +821,7 @@ function UCFeatured() {
       <div style={{ padding: isMobile ? '24px 20px' : '32px 40px', display: 'grid', gridTemplateColumns: isMobile ? '1fr' : '1fr 1fr', gap: isMobile ? 24 : 40, background: '#080808' }}>
         <div>
           <div style={{ ...tx.label, fontSize: 9, marginBottom: 16, color: GOLD }}>Design Notes</div>
-          <p style={{ ...tx.body, fontSize: 14, margin: 0, color: 'rgba(255,255,255,0.62)' }}>UC shifts the palette entirely. Where SOLT came in hot with red and aggression, Undercover moves in gold and shadow. The front carries just "UC." — slanted in white. The back tells a deeper story: a hooded masked figure, crowned and anonymous. A distressed gold star bleeds across the background. Power that moves quietly.</p>
+          <p style={{ ...tx.body, fontSize: 16, margin: 0, color: 'rgba(255,255,255,0.72)' }}>UC shifts the palette entirely. Where SOLT came in hot with red and aggression, Undercover moves in gold and shadow. The front carries just "UC." — slanted in white. The back tells a deeper story: a hooded masked figure, crowned and anonymous. A distressed gold star bleeds across the background. Power that moves quietly.</p>
         </div>
         <div>
           <div style={{ ...tx.label, fontSize: 9, marginBottom: 16, color: GOLD }}>Tags</div>
@@ -850,7 +850,7 @@ function BLTNFeatured() {
             <span style={{ fontFamily: FF, fontSize: 'clamp(32px,5vw,72px)', fontWeight: 900, letterSpacing: '-0.04em', color: tk.fg, lineHeight: 1 }}>ZIYA!</span>
             <span style={{ fontFamily: FF, fontSize: 'clamp(14px,2.2vw,26px)', fontWeight: 700, letterSpacing: '-0.02em', color: tk.fgDim, lineHeight: 1 }}>BLTN Collection</span>
           </div>
-          <div style={{ ...tx.body, fontSize: 13, marginTop: 8 }}>Better Late Than Never — Two colorways, one mark</div>
+          <div style={{ ...tx.body, fontSize: 16, marginTop: 8 }}>Better Late Than Never — Two colorways, one mark</div>
         </div>
         <div style={{ display: 'flex', gap: 10, alignItems: 'center' }}>
           {[{ bg: '#ffffff', border: 'rgba(255,255,255,0.12)', label: 'White' }, { bg: '#0a0a0a', border: 'rgba(255,255,255,0.18)', label: 'Black' }].map(c => (
@@ -872,7 +872,7 @@ function BLTNFeatured() {
       <div style={{ padding: isMobile ? '24px 20px' : '32px 40px', display: 'grid', gridTemplateColumns: isMobile ? '1fr' : '1fr 1fr', gap: isMobile ? 24 : 40, background: tk.bgAlt, borderTop: `1px solid ${tk.border}` }}>
         <div>
           <div style={{ ...tx.label, fontSize: 9, marginBottom: 16 }}>Design Notes</div>
-          <p style={{ ...tx.body, fontSize: 14, margin: 0 }}>BLTN strips everything back. No full-back graphic, no aggressive type. Just a crescent moon and three words — "better / late than / never." — stacked in clean lowercase beside it. The serif typeface is a deliberate break from SOLT and UC — less streetwear, more editorial. ZIYA!'s most wearable piece. It doesn't announce itself. It waits to be read.</p>
+          <p style={{ ...tx.body, fontSize: 16, margin: 0 }}>BLTN strips everything back. No full-back graphic, no aggressive type. Just a crescent moon and three words — "better / late than / never." — stacked in clean lowercase beside it. The serif typeface is a deliberate break from SOLT and UC — less streetwear, more editorial. ZIYA!'s most wearable piece. It doesn't announce itself. It waits to be read.</p>
         </div>
         <div>
           <div style={{ ...tx.label, fontSize: 9, marginBottom: 16 }}>Tags</div>
@@ -902,7 +902,7 @@ function PGDCFeatured() {
             <span style={{ fontFamily: FF, fontSize: 'clamp(32px,5vw,72px)', fontWeight: 900, letterSpacing: '-0.04em', color: '#ffffff', lineHeight: 1 }}>ZIYA!</span>
             <span style={{ fontFamily: FF, fontSize: 'clamp(14px,2.2vw,26px)', fontWeight: 700, letterSpacing: '-0.02em', color: 'rgba(255,255,255,0.28)', lineHeight: 1 }}>PGDC Collection</span>
           </div>
-          <div style={{ ...tx.body, fontSize: 13, marginTop: 8, color: 'rgba(255,255,255,0.55)' }}>Pretty Girls Don't Cry — Two colorways, one declaration</div>
+          <div style={{ ...tx.body, fontSize: 16, marginTop: 8, color: 'rgba(255,255,255,0.65)' }}>Pretty Girls Don't Cry — Two colorways, one declaration</div>
         </div>
         <div style={{ display: 'flex', gap: 10, alignItems: 'center' }}>
           {[{ bg: '#ffffff', border: 'rgba(255,255,255,0.12)', label: 'White' }, { bg: '#0a0a0a', border: 'rgba(255,255,255,0.18)', label: 'Black' }, { bg: PINK, border: 'none', label: 'Pink' }].map(c => (
@@ -924,7 +924,7 @@ function PGDCFeatured() {
       <div style={{ padding: isMobile ? '24px 20px' : '32px 40px', display: 'grid', gridTemplateColumns: isMobile ? '1fr' : '1fr 1fr', gap: isMobile ? 24 : 40, background: '#0a0a0a', borderTop: `1px solid ${PINK}22` }}>
         <div>
           <div style={{ ...tx.label, fontSize: 9, marginBottom: 16, color: PINK }}>Design Notes</div>
-          <p style={{ ...tx.body, fontSize: 14, margin: 0, color: 'rgba(255,255,255,0.62)' }}>PGDC leaves the dark palette entirely. A dusty pink field scattered with lip prints and "Pretty girls dont cry!" written large in loose hand-lettered script. The typography is expressive, fast, personal — like the thought was written down the moment it landed. On white the kiss marks read soft and warm in mauve; on black they deepen to crimson. Same defiance, different edge.</p>
+          <p style={{ ...tx.body, fontSize: 16, margin: 0, color: 'rgba(255,255,255,0.72)' }}>PGDC leaves the dark palette entirely. A dusty pink field scattered with lip prints and "Pretty girls dont cry!" written large in loose hand-lettered script. The typography is expressive, fast, personal — like the thought was written down the moment it landed. On white the kiss marks read soft and warm in mauve; on black they deepen to crimson. Same defiance, different edge.</p>
         </div>
         <div>
           <div style={{ ...tx.label, fontSize: 9, marginBottom: 16, color: PINK }}>Tags</div>
@@ -954,7 +954,7 @@ function KLMLNGFeatured() {
             <span style={{ fontFamily: FF, fontSize: 'clamp(32px,5vw,72px)', fontWeight: 900, letterSpacing: '-0.04em', color: '#ffffff', lineHeight: 1 }}>ZIYA!</span>
             <span style={{ fontFamily: FF, fontSize: 'clamp(14px,2.2vw,26px)', fontWeight: 700, letterSpacing: '-0.02em', color: 'rgba(255,255,255,0.28)', lineHeight: 1 }}>KLM LNG Collection</span>
           </div>
-          <div style={{ ...tx.body, fontSize: 13, marginTop: 8, color: 'rgba(255,255,255,0.55)' }}>Kalma Lang — Chill out, Kaibigan</div>
+          <div style={{ ...tx.body, fontSize: 16, marginTop: 8, color: 'rgba(255,255,255,0.65)' }}>Kalma Lang — Chill out, Kaibigan</div>
         </div>
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 10 }}>
           <div style={{ fontFamily: FF, fontSize: 9, fontWeight: 700, letterSpacing: '0.18em', textTransform: 'uppercase', color: '#080808', background: SUN, padding: '6px 14px' }}>Most Sold</div>
@@ -986,7 +986,7 @@ function KLMLNGFeatured() {
       <div style={{ padding: isMobile ? '24px 20px' : '32px 40px', display: 'grid', gridTemplateColumns: isMobile ? '1fr' : '1fr 1fr', gap: isMobile ? 24 : 40, background: '#080808' }}>
         <div>
           <div style={{ ...tx.label, fontSize: 9, marginBottom: 16, color: SUN }}>Design Notes</div>
-          <p style={{ ...tx.body, fontSize: 14, margin: 0, color: 'rgba(255,255,255,0.62)' }}>KLM LNG is ZIYA!'s most culturally rooted piece — and the brand's bestseller. "Kalma lang" is Filipino for "calm down, take it easy." A grinning retro sun mascot strolls between clouds wearing sneakers. Above it, "KALMA LANG" echoes three times in stacked gold and fading grey, like a mantra repeating until it lands. It's a shirt that speaks Filipino and smiles doing it.</p>
+          <p style={{ ...tx.body, fontSize: 16, margin: 0, color: 'rgba(255,255,255,0.72)' }}>KLM LNG is ZIYA!'s most culturally rooted piece — and the brand's bestseller. "Kalma lang" is Filipino for "calm down, take it easy." A grinning retro sun mascot strolls between clouds wearing sneakers. Above it, "KALMA LANG" echoes three times in stacked gold and fading grey, like a mantra repeating until it lands. It's a shirt that speaks Filipino and smiles doing it.</p>
         </div>
         <div>
           <div style={{ ...tx.label, fontSize: 9, marginBottom: 16, color: SUN }}>Tags</div>
