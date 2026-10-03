@@ -129,11 +129,11 @@ const FF = "'Inter','Helvetica Neue',Helvetica,Arial,sans-serif"
 
 function makeTx(tk: TK) {
   return {
-    label: { fontFamily: FF, fontSize: 10, fontWeight: 600, letterSpacing: '0.26em', textTransform: 'uppercase' as const, color: tk.accent },
-    micro: { fontFamily: FF, fontSize: 10, fontWeight: 500, letterSpacing: '0.22em', textTransform: 'uppercase' as const, color: tk.fgDim },
+    label: { fontFamily: FF, fontSize: 11, fontWeight: 600, letterSpacing: '0.26em', textTransform: 'uppercase' as const, color: tk.accent },
+    micro: { fontFamily: FF, fontSize: 11, fontWeight: 500, letterSpacing: '0.22em', textTransform: 'uppercase' as const, color: tk.fgDim },
     hero:  { fontFamily: FF, fontWeight: 900, letterSpacing: '-0.042em', lineHeight: 0.87, color: tk.fg },
-    body:  { fontFamily: FF, fontSize: 15, fontWeight: 400, lineHeight: 1.82, letterSpacing: '0.01em', color: tk.fgMuted },
-    nav:   { fontFamily: FF, fontSize: 10, fontWeight: 500, letterSpacing: '0.2em', textTransform: 'uppercase' as const },
+    body:  { fontFamily: FF, fontSize: 17, fontWeight: 400, lineHeight: 1.85, letterSpacing: '0.01em', color: tk.fgMuted },
+    nav:   { fontFamily: FF, fontSize: 11, fontWeight: 500, letterSpacing: '0.2em', textTransform: 'uppercase' as const },
   }
 }
 
